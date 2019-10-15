@@ -1,0 +1,31 @@
+.outer {
+    height: 100vh;
+    background-color: #1f1f20;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.button {
+    border: none;
+    background: none;
+    color: white;
+    opacity: .3;
+    transition: .5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 18px;
+    opacity: .6;
+    transition: .5s ease;
+
+}
+

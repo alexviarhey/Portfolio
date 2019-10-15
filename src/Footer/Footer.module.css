@@ -1,0 +1,44 @@
+.outer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #252527;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 22px;
+    color: white;
+    opacity: .8;
+    margin-bottom: 15px;
+}
+
+.social {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.item {
+    margin: 15px;
+}
+
+.svg {
+    fill: white;
+    opacity: .5;
+    transition: .4s;
+}
+
+.svg:hover {
+    opacity: .8;
+    transition: .4s;
+}
+
+
+.text {
+    color: white;
+    opacity: .8;
+}

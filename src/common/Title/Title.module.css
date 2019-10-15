@@ -1,0 +1,13 @@
+.text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.line {
+    width: 55px;
+    height: 1px;
+    background-color: #636770;
+    margin: 30px auto;
+}

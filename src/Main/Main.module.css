@@ -1,0 +1,85 @@
+.outer {
+    height: 100vh;
+    background-color: #252527;
+   /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;*/
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avatar {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-top: 65px;
+    z-index: 1;
+}
+
+.photo {
+    background-color:  gray;
+    width: 100%;
+    height: 100%;
+}
+.part {
+    height: 100%;
+}
+
+.particles {
+    height: 100%;
+}
+.frame {
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    width: 300px;
+    height: 430px;
+    border: 6px solid #636770;
+    z-index: -1;
+ }
+
+.name {
+    position: relative;
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #ffffff;
+    opacity: .8;
+}
+
+.name::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 20px;
+    width: 100%;
+    background: #636770;
+    top: 30px;
+    left: 0;
+}
+
+.name::after {
+    content: '.';
+    color: white;
+}
+
+
+
+
+
