@@ -22,7 +22,7 @@ const App = () => {
                 <Skills />
                 <ContactReduxForm onSubmit={onSubmit}/>
                 <Footer />
-            </div>
+        </div>
     )
 };
 
