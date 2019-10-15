@@ -66,17 +66,21 @@ const Main = () => {
             <div className={s.container}>
                 <div className={s.wrapper}>
                     <div className={s.left}>
-                        <div className={s.name}>
-                            <p>I am Alex Viarhei</p>
+                        <div className={s.hi}>Hi</div>
+                        <div className={s.text}>
+                            I am <span className={s.name}>Alex Viarhei</span>
+                        </div>
+                        <div className={s.direction}>
+                            Front-end developer
                         </div>
                     </div>
                     <div className={s.right}>
-                        <div>
+
                             <div className={s.avatar}>
                                 <img className={s.photo} src=""/>
                                 <div className={s.frame}></div>
                             </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
