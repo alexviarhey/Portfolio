@@ -58,3 +58,16 @@
     text-decoration: underline;
     transition: .3s;
 }
+
+
+@media screen and (max-width: 499px) {
+    .item {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .item {
+        margin-left: 8px;
+    }
+}

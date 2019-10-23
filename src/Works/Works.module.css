@@ -111,3 +111,29 @@
     margin-top: -70px
 }
 
+@media screen and (max-width: 1006px){
+    .work.four {
+        margin-top: -30px;
+    }
+
+    .work.five {
+        margin-top: 10px;
+    }
+
+    .work.six {
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 686px){
+    .work.four {
+        margin-top: 10px;
+    }
+
+    .work.six {
+        margin-top: 10px;
+    }
+}
+
+
+

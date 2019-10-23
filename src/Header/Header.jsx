@@ -10,7 +10,6 @@ const Header = () => {
                     <div className={s.nav}>
                         <div className={s.item}><a href="#">Hello</a></div>
                         <div className={s.item}><a href="#">Skills</a></div>
-                        <div className={s.item}><a href="#">Education</a></div>
                         <div className={s.item}><a href="#">Works</a></div>
                         <div className={s.item}><a href="#">Contact me</a></div>
                     </div>

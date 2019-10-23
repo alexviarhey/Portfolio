@@ -34,3 +34,16 @@
     color: transparent;
     transition: .4s;
 }
+
+
+@media screen and (max-width: 585px) {
+    .input, .textarea {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .input, .textarea {
+        width: 220px;
+    }
+}

@@ -1,10 +1,6 @@
 .outer {
     height: 100vh;
     background-color: #252527;
-   /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 30%;*/
 }
 
 .container {
@@ -115,6 +111,44 @@
 }
 
 
+@media screen and (max-width: 800px) {
+    .outer {
+        position: relative;
+        padding-bottom: 115px;
+    }
+
+    .part {
+        padding-top: 80px;
+    }
+
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .direction {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .frame {
+        display: none;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+
+    .direction {
+        margin-left: 30px;
+    }
+
+    .avatar {
+        margin-top: 20px;
+    }
+
+
+}
 
 
 

@@ -75,4 +75,17 @@
 }
 
 
+@media screen and (max-width: 838px) {
+    .skill {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .skill {
+        width: 100%;
+    }
+}
+
+
 
