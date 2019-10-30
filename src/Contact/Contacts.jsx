@@ -6,7 +6,7 @@ import Title from "../common/Title/Title";
 
 const ContactForm = ({handleSubmit}) => {
     return (
-        <div className={s.outer}>
+        <div id='contact' className={s.outer}>
             <div className={s.container}>
                 <Title title='Contacts'/>
                 <form className={s.form} onSubmit={handleSubmit}>

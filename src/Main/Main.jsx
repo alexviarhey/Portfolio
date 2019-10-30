@@ -4,7 +4,7 @@ import s from './Main.module.css'
 
 const Main = () => {
     return (
-        <div className={s.outer}>
+        <div id='main' className={s.outer}>
             <div className={s.part}>
                 <Particles className={s.particles}
                            params={{
@@ -75,12 +75,10 @@ const Main = () => {
                         </div>
                     </div>
                     <div className={s.right}>
-
                             <div className={s.avatar}>
                                 <img className={s.photo} src=""/>
                                 <div className={s.frame}></div>
                             </div>
-
                     </div>
                 </div>
             </div>

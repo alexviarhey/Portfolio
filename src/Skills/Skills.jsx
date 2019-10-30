@@ -4,7 +4,7 @@ import Title from "../common/Title/Title";
 
 const Skills = () => {
     return (
-        <div className={s.outer}>
+        <div id='skills' className={s.outer}>
             <div className={s.container}>
                 <div className={s.wrapper}>
                     <Title title='Skills'/>
@@ -15,8 +15,7 @@ const Skills = () => {
                             </div>
                             <div className={s.title}>React</div>
                             <div className={s.subtitle}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ea ex nisi quod, rerum sed tenetur.
-                                Delectus inventore maiores modi nostrum?
+
                             </div>
                         </div>
                         <div className={s.skill}>
@@ -25,8 +24,7 @@ const Skills = () => {
                             </div>
                             <div className={s.title}>Redux</div>
                             <div className={s.subtitle}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ea ex nisi quod, rerum sed tenetur.
-                                Delectus inventore maiores modi nostrum?
+
                             </div>
                         </div>
                         <div className={s.skill}>
@@ -35,8 +33,7 @@ const Skills = () => {
                             </div>
                             <div className={s.title}>Type Script</div>
                             <div className={s.subtitle}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ea ex nisi quod, rerum sed tenetur.
-                                Delectus inventore maiores modi nostrum?
+
                             </div>
                         </div>
                         <div className={s.skill}>
@@ -45,8 +42,7 @@ const Skills = () => {
                             </div>
                             <div className={s.title}>HTML</div>
                             <div className={s.subtitle}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ea ex nisi quod, rerum sed tenetur.
-                                Delectus inventore maiores modi nostrum?
+
                             </div>
                         </div>
                         <div className={s.skill}>
@@ -55,8 +51,7 @@ const Skills = () => {
                             </div>
                             <div className={s.title}>CSS</div>
                             <div className={s.subtitle}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ea ex nisi quod, rerum sed tenetur.
-                                Delectus inventore maiores modi nostrum?
+
                             </div>
                         </div>
                         <div className={s.skill}>
@@ -65,8 +60,7 @@ const Skills = () => {
                             </div>
                             <div className={s.title}>Js</div>
                             <div className={s.subtitle}>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ea ex nisi quod, rerum sed tenetur.
-                                Delectus inventore maiores modi nostrum?
+                                
                             </div>
                         </div>
                     </div>

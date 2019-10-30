@@ -82,22 +82,52 @@
     opacity: 1;
     visibility: visible;
     transition: 1s;
+    cursor: pointer;
 }
 
 .work:hover .blur {
     filter: grayscale(100%) blur(4px);
     transition: .3s;
+
+}
+
+.workInfo a {
+    color: darkslategrey;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.work.one .blur {
+    background-image: url("../img/Todolist.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
-
 .work.two {
+
     height: 360px;
+}
+
+.work.two .blur {
+    background-image: url("../img/Calculator.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .work.three {
     height: 320px;
 }
+
+.work.three .blur {
+    background-image: url("../img/Counter.png");
+    background-size: cover;
+    background-position: 38%;
+    background-repeat: no-repeat;
+}
+
 
 .work.four {
     height: 320px;
@@ -134,6 +164,8 @@
         margin-top: 10px;
     }
 }
+
+
 
 
 
